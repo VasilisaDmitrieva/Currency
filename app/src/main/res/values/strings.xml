@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="button_text">Convert</string>
+    <string name="label_text">Convert rubble to chosen currency</string>
+    <string name="refresh_button_text">Refresh</string>
+</resources>
