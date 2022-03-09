@@ -1,6 +1,5 @@
 package com.example.currency;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -21,7 +20,6 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public class CurrencyList extends ListFragment implements View.OnClickListener {
@@ -31,7 +29,7 @@ public class CurrencyList extends ListFragment implements View.OnClickListener {
     }
 
     public interface ChangeCurrency {
-        public void changeCurrency(Currency currency);
+        void changeCurrency(Currency currency);
     }
 
     ChangeCurrency changeCurrency;
